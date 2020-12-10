@@ -3,7 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.dell.meme">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
 
     <application
         android:icon="@mipmap/ic_launcher"
@@ -12,13 +16,42 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".MEME">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4907814414123647~2119003519" />
+        <activity
+            android:name=".MEME"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <!--Send action required to display activity in share list-->
+                <category android:name="android.intent.category.DEFAULT" />
+                <!--           Make activity default to launch -->
+                <!-- Mime type i.e. what can be shared with this activity only image and text -->
+                <data android:mimeType="image/*" />
+
+            </intent-filter>
         </activity>
+
+        <activity
+            android:name=".LikedMemeList"
+            android:parentActivityName=".MEME" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <!--Send action required to display activity in share list-->
+                <category android:name="android.intent.category.DEFAULT" />
+                <!--           Make activity default to launch -->
+                <!-- Mime type i.e. what can be shared with this activity only image and text -->
+                <data android:mimeType="image/*" />
+
+            </intent-filter>
+        </activity>
+
+
     </application>
 
 </manifest>

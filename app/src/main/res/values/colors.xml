@@ -8,4 +8,6 @@
     <color name="next">#c0dc33</color>
     <color name="background">#000000</color>
 
+    <color name="like_btn">#52100101</color>
+
 </resources>
