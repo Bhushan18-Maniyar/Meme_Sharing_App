@@ -57,9 +57,6 @@ dependencies {
 //    admob
     implementation 'com.google.android.gms:play-services-ads:19.6.0'
 
-//    animation
-    implementation 'com.airbnb.android:lottie:3.5.0'
-
     implementation 'androidx.multidex:multidex:2.0.1'  //with androidx libraries
 
     // Room components
