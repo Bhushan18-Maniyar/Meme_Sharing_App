@@ -48,8 +48,7 @@ class MEME : AppCompatActivity() {
 
         MobileAds.initialize(this@MEME)
         mInterstitialAd = InterstitialAd(this)
-//        "ca-app-pub-4907814414123647~2119003519"
-//        mInterstitialAd.adUnitId = "ca-app-pub-4907814414123647~2119003519"
+        
         mInterstitialAd.adUnitId = "ca-app-pub-3940256099942544/1033173712"
         mInterstitialAd.loadAd(AdRequest.Builder().build())
 
