@@ -14,7 +14,7 @@
 You can Download apk from drive
 * [MEME](https://drive.google.com/file/d/1cTzRvm1LrZHe1W5ByHohOsDkpAlOuJb5/view?usp=sharing) 
     
-    <img src="/MEME_SS/1.png" width="50%" />
-    <img src="/MEME_SS/2.png" width="50%" />
-    <img src="/MEME_SS/3.png" width="50%" />
-    <img src="/MEME_SS/4.png" width="50%" />
+    <img src="/MEME_SS/1.png" width="20%" />
+    <img src="/MEME_SS/2.png" width="20%" />
+    <img src="/MEME_SS/3.png" width="20%" />
+    <img src="/MEME_SS/4.png" width="20%" />
