@@ -14,15 +14,7 @@
 You can Download apk from drive
 * [MEME](https://drive.google.com/file/d/1cTzRvm1LrZHe1W5ByHohOsDkpAlOuJb5/view?usp=sharing) 
     
-  <table style="width:0%">
-  <tr>
-    <td><img src="/MEME_SS/1.jpg" width="50%" /></td>
-    <td><img src="/MEME_SS/2.jpg" width="50%" /></td>
-  </tr>
-  <tr>
-    <td><img src="/MEME_SS/3.jpg" width="50%" /></td>
-    <td><img src="/MEME_SS/4.jpg" width="50%" /></td>
-  </tr>
-  <tr>
-    <td><img src="/MEME_SS/5.jpg" width="50%" /></td>
-  </tr>
+    <img src="/MEME_SS/1.png" width="50%" />
+    <img src="/MEME_SS/2.png" width="50%" />
+    <img src="/MEME_SS/3.png" width="50%" />
+    <img src="/MEME_SS/4.png" width="50%" />
