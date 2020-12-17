@@ -1,6 +1,6 @@
 # Meme_Sharing_App
 
-### This is an Android application for Meme Lovers. Integrated with Admob
+### This is an Android application for Meme Lovers. Integrated with Admob, Used Glide library to load image
 
 #### Features!
   - Share MEME
@@ -13,9 +13,7 @@
 
 You can Download apk from drive
 * [MEME](https://drive.google.com/file/d/1cTzRvm1LrZHe1W5ByHohOsDkpAlOuJb5/view?usp=sharing) 
-  
-  
-  
+    
   <table style="width:0%">
   <tr>
     <td><img src="/MEME_SS/1.jpg" width="50%" /></td>
@@ -28,4 +26,3 @@ You can Download apk from drive
   <tr>
     <td><img src="/MEME_SS/5.jpg" width="50%" /></td>
   </tr>
-  
