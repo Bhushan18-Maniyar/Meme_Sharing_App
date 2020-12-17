@@ -1,27 +1,21 @@
-package com.example.dell.meme
+    package com.example.dell.meme
 
 import android.content.Intent
 import android.graphics.Bitmap
 import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore
-import android.view.View
-import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bumptech.glide.Glide
-import com.bumptech.glide.Registry
-import com.bumptech.glide.annotation.GlideModule
 import com.bumptech.glide.load.engine.DiskCacheStrategy
-import com.bumptech.glide.module.AppGlideModule
 import com.bumptech.glide.request.target.SimpleTarget
 import com.bumptech.glide.request.transition.Transition
 import kotlinx.android.synthetic.main.activity_liked__meme_list.*
-import kotlinx.android.synthetic.main.activity_meme.*
 
-class LikedMemeList : AppCompatActivity(), IMemeRVAdapter {
+    class LikedMemeList : AppCompatActivity(), IMemeRVAdapter {
 
     private lateinit var viewModel: MemeViewModel
 
